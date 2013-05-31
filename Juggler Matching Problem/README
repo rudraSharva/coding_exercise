@@ -1,0 +1,16 @@
+This folder consist of 3 subfolders:
+
+1). Example on webpage: gives my test resuly on the example problem
+    given on your website, to which my logic in the program complies
+    to. Results can be cross checked.
+
+2). Sample test: In this folder I have mentioned a test case for which
+    I believe juggler cannot be assigned to any circuit without violating
+    the preference and weight constraints which are essential to the needs
+    of the problem statement. A step by step analysis and description of 
+    that test case has been provided by me. This I did because I am getting
+    some jugglers in the main input file which are not being classified to
+    any circuit (about 80 or so). To crosscheck this I have made this example.
+
+3). Final_program: This folder consist of the actual problem input.txt, outputs
+    and associated code files with explanation

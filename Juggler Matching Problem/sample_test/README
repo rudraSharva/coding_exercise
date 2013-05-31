@@ -1,0 +1,45 @@
+/////////////////////////////////////TEST PROGRAM///////////////////////////////////////////
+
+
+This folder contains following files for a particular test case
+where I believe circuit assignments cannot be made without violating
+the constraints and hence that juggler remains free without any circuit
+alloted to him. in this case juggler(16):
+
+
+Files:
+
+1).circuit.txt
+   This file consist of H E and P values for each circuit
+   separated by "," delimiter. Each row represent one circuit.
+   There are 10 circuits overall.
+
+2).juggler.txt
+   This file consist of H E and P values for each juggler
+   separated by "," delimiter. Each row represent one juggler.
+   There are 30 jugglers overall.
+
+3).preferences.txt
+   This file consist of the circuit preferences given by a
+   juggler to circuits in decending order separated by ",".
+   each row represents a juggler and his preferences.There
+   are 30 juggler preferences in all. Each juggler gives 5
+   preferences. I have taken care to make the preference dis-
+   tribution uniform to a large extent covering all circuit, 
+   except the cases which I wanted to test the logic for.
+
+4).sample_result.txt
+   this file consist of inital and final allotments made to 
+   the circuits. Comments have been provided to assist further.
+
+5).sample_output.txt
+   this is the main control flow file which tests various aspects
+   of allocation and constraint checking for the example given. Step
+   by step analysis has been provided for checking the allocations    
+   in a circuit at a given point in time and how the program reaches 
+   to its final conclusion.
+
+
+The logic that I have used for grouping has been explained in the section where I 
+submit my code. I believe it to be correct, but I may be wrong. In case you find a 
+fault please correct me and give a feedback.

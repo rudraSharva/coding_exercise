@@ -1,0 +1,75 @@
+//output information for test example
+
+Pool at start is = [7, 25, 18]
+juggler=  7
+juggler_list_is:  [4, 5, 1, 2] 
+
+in if condition for juggler  7 whose preference is = 4  ,his weight=  95
+main allotment before assignment is = [(6, 146), (16, 25)]
+main allotment after assignment is = [(6, 146), (7, 95), (16, 25)]
+
+Pool at end is = [25, 18]
+Pool at start is = [25, 18]
+juggler=  25
+juggler_list_is:  [8, 9, 4, 2] 
+
+in if condition for juggler  25 whose preference is = 8  ,his weight=  32
+main allotment before assignment is = [(10, 89), (12, 43)]
+main allotment after assignment is = [(10, 89), (12, 43), (25, 32)]
+
+Pool at end is = [18]
+Pool at start is = [18]
+juggler=  18
+juggler_list_is:  [3, 6, 4, 1] 
+
+in else condition for juggler  18 whose preference is = 3  ,his weight=  88  ,min weight of his preference is= 106
+
+Pool at end is = [18]
+Pool at start is = [18]
+juggler=  18
+juggler_list_is:  [6, 4, 1] 
+
+in else condition for juggler  18 whose preference is = 6  ,his weight=  71  ,min weight of his preference is= 74
+
+Pool at end is = [18]
+Pool at start is = [18]
+juggler=  18
+juggler_list_is:  [4, 1] 
+
+in else condition for juggler  18 whose preference is = 4  ,his weight=  73  ,min weight of his preference is= 25
+main allotment before assignment is = [(6, 146), (7, 95), (16, 25)]
+main allotment after assignment is = [(6, 146), (7, 95), (18, 73)]
+
+Pool at end is = [16]
+Pool at start is = [16]
+juggler=  16
+juggler_list_is:  [7, 8, 2, 1] 
+
+in else condition for juggler  16 whose preference is = 7  ,his weight=  25  ,min weight of his preference is= 76
+
+Pool at end is = [16]
+Pool at start is = [16]
+juggler=  16
+juggler_list_is:  [8, 2, 1] 
+
+in else condition for juggler  16 whose preference is = 8  ,his weight=  18  ,min weight of his preference is= 32
+
+Pool at end is = [16]
+Pool at start is = [16]
+juggler=  16
+juggler_list_is:  [2, 1] 
+
+in else condition for juggler  16 whose preference is = 2  ,his weight=  30  ,min weight of his preference is= 100
+
+Pool at end is = [16]
+Pool at start is = [16]
+juggler=  16
+juggler_list_is:  [1] 
+
+in else condition for juggler  16 whose preference is = 1  ,his weight=  5  ,min weight of his preference is= 18
+
+Pool at end is = [16]
+Pool at start is = [16]
+juggler=  16
+juggler_list_is:  [] 
+(list becomes empty, juggler number 16 cannot be assigned to any circuit without violating the constraints)

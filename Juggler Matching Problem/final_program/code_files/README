@@ -1,0 +1,10 @@
+This folder consists of:
+
+1). text_process.py
+    (for processing the original input.txt file)
+      details are mentioned in the comments
+2). solution.py
+    (the main solution code)
+    implementation and logic details mentioned in comments
+
+The final runtime of my program for the given input file is about 8.2 sec.
