@@ -149,9 +149,7 @@ while Pool: ## while jugglers are remaining in Pool
 			Main_dic[jug_circuit]=Main_dic[jug_circuit][:len(Main_dic[jug_circuit])-1]
 			Main_dic[jug_circuit].append((jug,weight_jug))
 			Main_dic[jug_circuit]=sorted(Main_dic[jug_circuit], key=lambda score: score[1], reverse=True) ## all min-max extraction operations can be simplified by building heap 
-print 'completed'
 
-"""
 #loop for the final display
 print "\nFinal Circuit Allotments:\n"
 for i in range(len(Main_dic)):
@@ -169,4 +167,4 @@ for i in range(len(Main_dic)):
 print "\n"
 sys.stdout = saveout
 outfile.close()
-"""
+
